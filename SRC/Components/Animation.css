@@ -1,0 +1,7 @@
+.circle1 {
+    @apply absolute right-0 rounded-full size-40 bg-primary dark: bg-white/50 -z-10 circle-animation1;
+}
+
+.circle2 {
+    @apply absolute bottom-0 rounded-full size-40 bg-primary dark: bg-white/50 -z-10 circle-animation2;
+}

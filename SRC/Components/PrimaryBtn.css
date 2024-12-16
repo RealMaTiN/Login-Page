@@ -1,0 +1,3 @@
+.primary-btn {
+  @apply w-full p-3 mt-2 text-white transition-all duration-150 border-2 bg-primary rounded-xl border-primary hover: text-primary dark:bg-white dark:text-primary dark:border-white dark:hover:bg-primary dark:hover:border-secondary dark:hover:text-white hover:bg-transparent;
+}

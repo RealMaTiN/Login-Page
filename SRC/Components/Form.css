@@ -1,0 +1,39 @@
+form {
+  @apply flex flex-col items-center w-1/2 w-2/6 h-auto px-8 overflow-hidden border-2 border-Neutral rounded-3xl xl: bg-white/30 dark:bg-secondary/30 dark:border-secondary sm:px-3 sm:w-full sm:mx-5;
+}
+
+.icon {
+  @apply p-3 mt-5 bg-white border-2 dark: bg-primary text-Neutral border-Neutral dark:border-secondary rounded-xl dark:text-white;
+}
+
+.welcome {
+  @apply mt-5 text-xl font-semibold;
+}
+
+.signup-link {
+  @apply mt-3 mb-6;
+
+  a {
+    @apply text-blue;
+  }
+}
+
+.magic-link {
+  @apply mt-5;
+}
+
+.or {
+  @apply mt-7 mb-5 flex gap-3 w-full text-primary items-center before: h-[1px] dark:before:bg-white dark:after:bg-white dark:text-white before:grow before:bg-primary after:h-[1px] after:grow after:bg-primary;
+}
+
+.readme {
+  @apply mt-8 text-xs text-center;
+}
+
+.Privacy {
+  @apply mb-5 text-xs;
+
+  a {
+    @apply text-blue;
+  }
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@layer base {
+    * {
+        font-family: "Inter", serif;
+    }
+
+    body {
+        @apply relative w-full h-screen max-h-screen overflow-hidden text-sm bg-white dark: bg-primary text-primary dark:text-white;
+    }
+}
+
+.main {
+    @apply absolute inset-0 z-10 flex items-center justify-center backdrop-blur-3xl;
+}

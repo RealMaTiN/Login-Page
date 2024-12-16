@@ -1,0 +1,43 @@
+.circle-animation1 {
+  animation: circle1 10s linear infinite alternate;
+}
+
+.circle-animation2 {
+  animation: circle2 10s linear infinite alternate;
+}
+
+@keyframes circle1 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translate(-500px, 500px);
+  }
+  50% {
+    transform: translate(-1000px, 700px);
+  }
+  75% {
+    transform: translate(-800px, 200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes circle2 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translate(500px, -500px);
+  }
+  50% {
+    transform: translate(1000px, -700px);
+  }
+  75% {
+    transform: translate(800px, -200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
