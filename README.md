@@ -1,5 +1,3 @@
-<div align="center">
-
 # Simple Login Page
 "A simple Login / Register Page With HTML & TailwindCss !"
 
@@ -22,5 +20,3 @@ Preview: https://realmatin.github.io/Login-Page/
 <br>
 
 # [Follow](https://github.com/RealMaTiN) For More Projects!
-
-</div>
